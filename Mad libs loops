@@ -1,0 +1,7 @@
+while True:
+   user_input = input()
+   if user_input == 'quit 0':
+       break
+   input_part = user_input.split()
+   string, integer = input_part
+   print(f'Eating {integer} {string} a day keeps you happy and healthy.')
